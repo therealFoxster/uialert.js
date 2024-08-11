@@ -2,6 +2,8 @@
 
 Kinda like [`UIAlertController`](https://developer.apple.com/documentation/uikit/uialertcontroller) but for the web.
 
+[Demo](https://therealfoxster.github.io/uialert.js/)
+
 ## Get started
 
 Include `uialert.css`:
