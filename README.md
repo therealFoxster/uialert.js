@@ -6,10 +6,16 @@ Kinda like [`UIAlertController`](https://developer.apple.com/documentation/uikit
 
 ## Get started
 
-Include `uialert.css`:
+Import `uialert.css` in your `html` file:
 
 ```html
 <link rel="stylesheet" href="uialert.css">
+```
+
+or alternatively in your `css` file:
+
+```css
+@import url("uialert.css");
 ```
 
 Import `UIAlert` in your script:
