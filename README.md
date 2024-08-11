@@ -27,7 +27,7 @@ const uiAlert = new UIAlert({
 });
 ```
 
-By default, this instance has an action titled `"OK"` which dismisses the alert on click.
+By default, this instance has an action titled `'OK'` which dismisses the alert on click.
 
 ### Adding actions
 
@@ -97,3 +97,6 @@ Finally, to present the instance, call the `present()` instance method:
 ```js
 uiAlert.present();
 ```
+
+## License
+[The MIT License](https://github.com/therealFoxster/uialert.js/blob/master/LICENSE.md)
