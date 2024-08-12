@@ -10,6 +10,7 @@
 
 * {
   --uialert-background-color: rgb(236, 236, 236);
+  --uialert-container-background-color: rgba(0, 0, 0, 0.25);
   --uialert-text-color: black;
   --uialert-separator-color: rgba(0, 0, 0, 0.125);
   --uialert-button-hover-background-color: rgba(0, 0, 0, 0.125);
@@ -20,6 +21,7 @@
 @media (prefers-color-scheme: dark) {
   * {
     --uialert-background-color: rgb(45, 45, 45);
+    --uialert-container-background-color: rgba(0, 0, 0, 0.5);
     --uialert-text-color: white;
     --uialert-separator-color: rgba(255, 255, 255, 0.125);
     --uialert-button-hover-background-color: rgba(255, 255, 255, 0.125);
@@ -42,7 +44,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: var(--uialert-container-background-color);
   z-index: 999;
 }
 
@@ -171,7 +173,7 @@
 }
 
 #uialert {
-  animation: uialert-in 0.15s ease-in-out;
+  animation: uialert-in 0.25s ease-in-out;
 }
 
 @keyframes uialert-out {
